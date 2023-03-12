@@ -30,10 +30,10 @@ function generatePassword(){
 
   while (i===0){
     // Lowercase Characters Prompt
-    var lowercaseConfirm = window.prompt("Should the password contain lowercase characters? Type 'Y' yes or 'N' for no.", "'Y' or 'N'").toUpperCase();
+    var lowercaseConfirm = window.prompt("Should the password contain lowercase characters? Type 'Y' for yes or 'N' for no.", "'Y' or 'N'").toUpperCase();
     // Lowercase Characters Approval
     while (!(lowercaseConfirm==='Y'||lowercaseConfirm==='N')){
-      lowercaseConfirm = window.prompt("Your input was not valid! Please try again. Should the password contain lowercase characters? Type 'Y' yes or 'N' for no.", "'Y' or 'N'").toUpperCase();
+      lowercaseConfirm = window.prompt("Your input was not valid! Please try again. Should the password contain lowercase characters? Type 'Y' for yes or 'N' for no.", "'Y' or 'N'").toUpperCase();
     }
     // Add to Counter if 'Y' is selected
     if (lowercaseConfirm==='Y'){
@@ -41,10 +41,10 @@ function generatePassword(){
     }
 
     // Uppercase Characters Prompt
-    var uppercaseConfirm = window.prompt("Should the password contain uppercase characters? Type 'Y' yes or 'N' for no.", "'Y' or 'N'").toUpperCase();
+    var uppercaseConfirm = window.prompt("Should the password contain uppercase characters? Type 'Y' for yes or 'N' for no.", "'Y' or 'N'").toUpperCase();
     // Uppercase Characters approval
     while (!(uppercaseConfirm==='Y'||uppercaseConfirm==='N')){
-      uppercaseConfirm = window.prompt("Your input was not valid! Please try again. Should the password contain uppercase characters? Type 'Y' yes or 'N' for no.", "'Y' or 'N'").toUpperCase();
+      uppercaseConfirm = window.prompt("Your input was not valid! Please try again. Should the password contain uppercase characters? Type 'Y' for yes or 'N' for no.", "'Y' or 'N'").toUpperCase();
     }
     // Add to counter if 'Y' is selected
     if(uppercaseConfirm==='Y'){
@@ -52,10 +52,10 @@ function generatePassword(){
     }
 
     // Numeric Characters Prompt
-    var numericConfirm = window.prompt("Should the password contain numbers? Type 'Y' yes or 'N' for no.", "'Y' or 'N'").toUpperCase();
+    var numericConfirm = window.prompt("Should the password contain numbers? Type 'Y' for yes or 'N' for no.", "'Y' or 'N'").toUpperCase();
     // Numeric Characters Approval
     while (!(numericConfirm==='Y'||numericConfirm==='N')){
-      numericConfirm = window.prompt("Your input was not valid! Please try again. Should the password contain numbers? Type 'Y' yes or 'N' for no.", "'Y' or 'N'").toUpperCase();
+      numericConfirm = window.prompt("Your input was not valid! Please try again. Should the password contain numbers? Type 'Y' for yes or 'N' for no.", "'Y' or 'N'").toUpperCase();
     }
     // Add to counter if 'Y' is selected
     if (numericConfirm==='Y'){
@@ -63,7 +63,7 @@ function generatePassword(){
     }
 
     // Special Characters prompt
-    var specialCharactersConfirm = window.prompt("Should the password contain any special characters? Type 'Y' yes or 'N' for no.", "'Y' or 'N'").toUpperCase();
+    var specialCharactersConfirm = window.prompt("Should the password contain any special characters? Type 'Y' for yes or 'N' for no.", "'Y' or 'N'").toUpperCase();
     // Special Characters Approval
     while (!(specialCharactersConfirm==='Y'||specialCharactersConfirm==='N')){
       specialCharactersConfirm = window.prompt("Your input was not valid! Please try again. Should the password contain special characters? Type 'Y' yes or 'N' for no.", "'Y' or 'N'").toUpperCase();
