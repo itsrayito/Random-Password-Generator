@@ -1,7 +1,7 @@
 # Random-Password-Generator
 ## Description
 For this week's challenge, we were assigned to modify an already existing code that will enable employees to generate random passwords based on the criteria that they choose such as special characters, upper and lower case letters, and numbers. The random password generator will run succesfully in a browser and will consist of HTML, CSS & Javascript.
-## Screenshot
+## Screenshots
 - ### Screenshot below showing beginning of password generator on browser and asking how long the user wants the password to be.
 ![Alt text](images/Screenshot%202023-03-11%20at%2011.10.23%20PM.png)
 - ### Screenshot below showing the password generator asking if the user wants lowercase characters.
